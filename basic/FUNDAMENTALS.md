@@ -175,3 +175,70 @@ public class Main {
     }
 }
 ```
+###### Final keyword:
+* **final** - kalit so'zi orqali konstanta qiymatlarni e'lom
+qilishda foydalaniladi.
+```java
+public class Variables {
+    static int m = 300; // static variable
+
+    void method(){
+        int t=200; // local variable
+    }
+    public static void main(String[] args) {
+        int n = 20; // instance varaible
+
+        String name = "John";
+        System.out.println(name);
+
+        final int x = 10;
+        System.out.println(x);
+        x = 20;
+        System.out.println(x);
+    }
+}
+```
+```plantuml
+Variables.java:13: error: <identifier> expected
+    static m = 300; // static variable
+            ^
+1 error
+```
+```java
+public class Variables {
+    public static void main(String[] args) {
+        String firstname = "John ";
+        String lastname = "Doe";
+        String fullname = firstname + lastname;
+        System.out.println(firstname); // John
+        System.out.println(lastname); // Doe
+        System.out.println(fullname); // John Doe
+//        For numbers
+        int x = 5;
+        int y = 15;
+        System.out.println(x+y); // 20;
+
+        System.out.println("My name is "+ firstname);
+        System.out.println("My sourname is " +lastname);
+        System.out.println("My fullname is " + fullname);
+
+//        Mixing text and numbers
+
+        System.out.println("The sum is " + x + y); // 515
+        System.out.println("The sum is " + (x+y)); // 20
+    }
+}
+```
+```plantuml
+Result:
+
+John 
+Doe
+John Doe
+20
+My name is John 
+My sourname is Doe
+My fullname is John Doe
+The sum is 515
+The sum is 20
+```
