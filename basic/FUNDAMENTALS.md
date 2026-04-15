@@ -242,3 +242,64 @@ My fullname is John Doe
 The sum is 515
 The sum is 20
 ```
+### Data Types
+
+* **Ma'lumot turi ya'ni data type** - bu xotirada saqlanuvchi o'zgaruvchini
+biror tur asosida saqlaymiz.Bir tur bilan e'lon qilingan o'zgaruvchini
+javada boshqa turga o'zgartirib bo'lmaydi.Bu bizga xavfsizlik
+uchun xizmat qiladi.
+* **Data type** - ikkiga bo'linadi:
+1. Primitive data type
+2. Non-Primitive data type
+
+* **Primitive data type:** - quyidagilar kiradi.
+1. byte
+2. short
+3. int
+4. long
+5. float
+6. double
+7. boolean
+8. char
+* **Non-Primitive data type:** quyidaqgilar kiradi.
+1. String
+2. Class
+3. Interface
+
+###### Nima farqi bor bularni:
+* Primitive data type bilan non-primitive data type'ni asosiy
+farqi xotirada saqlanishi va qiymat turidadir.Primitive data type
+to'g'ridan-to'g'ri haqiqiy qiymatni o'zini saqlaydi.Non-Primitive
+data type esa obyektga ishora ya'ni manzilini saqlaydi.
+Ma'lumotlar primitive da **Stack** xotirada saqlanadi.
+Non=primitive data type da esa **Heap** xotirada saqlanadi.
+
+#### Java Numbers
+Javada numbers ikki turga bo'linadi:
+1. Integer types
+2. Floating point types
+
+###### Integer Types:
+1. byte
+2. short
+3. int
+4. long
+
+###### Floating point Type:
+1. float
+2. doublw
+
+### Javada var kalit so'zi
+* Javada var kalit so'zi biror o'zgaruvchini tipini o'zimiz kiritmasdan
+kompyator ixtiyoriga topshirish uchun foydalaniladi ya'ni biror
+o'zgaruvchini tipini kompplator o'zi actomatik aniqlaydi agar var bilan e'lon qilinsa
+```plantuml
+var x = 10;
+var name = "John";
+var arr = new ArrayList<String>();
+var map = new HashMap<Integer>();
+```
+* var kalit so'zi kodni o'qilishini osonlashtirish va local 
+o'zgaruvchilarni aniqlashdagina foydalaniladi.
+
+### Type Casting in Java

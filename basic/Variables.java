@@ -73,5 +73,8 @@ public class Variables {
 //        int x,y,z=5; // false
 //        x=y=z=5; // true
         System.out.println(x + y + z);
+
+        final int MINUTEPERHOUR=60;
+        System.out.println(MINUTEPERHOUR);
     }
 }
