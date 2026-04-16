@@ -303,3 +303,51 @@ var map = new HashMap<Integer>();
 o'zgaruvchilarni aniqlashdagina foydalaniladi.
 
 ### Type Casting in Java
+* Type casting - bu bir turdagi o'zgaruvchini boshqa bir turga
+o'tkazish jarayoni hisoblanadi.Type casting 2 xil bo'ladi:
+1. Widening Casting(Automatic)
+2. Narrowing Casting(Manual)
+
+1. Widening Casting
+```plantuml
+int x = 5;
+double t = x; // This is widening casting for example
+```
+2. Narrowing Casting
+```plantuml
+double y = 5.6;
+int x = (int) y; // This is narrowing casting for example
+```
+### Operators in Java
+* Operatorlar - o'zgaruvchilar va qiymarlar ustida matematik
+yokida arifmetik amallar bajarish uchun foydalaniladigan
+maxsus belgilar hisoblanadi.
+###### Operatorlarning turlari:
+1. Arifmetik
+2. Solishtirish
+3. Mantiqiy
+4. O'zlashtirish
+5. Shartli va Boshqaruv operatorlari
+
+##### 1. Arifmetik operatorlar
+* Matematik amallar bajarish uchun foydalaniladigan operatorlar hisoblanadi.
+Ular quyidagilar hisoblanadi:
+* qo'shish(+)
+* ayirish(-)
+* ko'paytirish(*)
+* bo'lish(/)
+* qoldiqli bo'lish(%)
+###### 2. Solishtirish operatorlar
+* Ikki qiymatni bir biri bilan solishtirish uchun foydalaniladigan
+operatorlar hisoblanadi va ular true/false qitmat qaytaradi.
+1. tenglik(==)
+2. katta(>)
+3. katta yoki teng(>=)
+4. kichik(<)
+5. kichik yoki teng(<=)
+6. teng emas(!=)
+###### Mantiqiy operatorlar
+* murakkab shartlarni tekshirish uchun mantiqiy amallar bajaradi
+1. and yokida va (&&)
+2. or yokida yoki (||)
+3. inkor (!)
