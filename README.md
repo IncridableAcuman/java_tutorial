@@ -33,32 +33,5 @@ learn java skills.
 * Thread pool 
 * CompletableFuture 
 * Deadlock handling 
-###### Spring Boot (CORE BACKEND)
-* Spring Core 
-* Spring Boot architecture 
-* Dependency Injection 
-* Spring MVC 
-* REST API design
-###### Security
-* Spring Security 
-* JWT authentication 
-* OAuth2 (Google/GitHub login)
-* Role-based access
-###### Database Advanced
-* PostgreSQL / MySQL deep 
-* Indexing 
-* Transactions 
-* ACID properties 
-* ORM (Hibernate / JPA)
-* Lazy vs Eager loading
-###### Microservices
-* Service decomposition 
-* API Gateway 
-* Eureka / Service Discovery 
-* Communication (REST / Kafka)
-* Distributed systems basics
-###### Testing & DevOps basics
-* JUnit / Mockito 
-* Docker basics 
-* CI/CD (GitHub Actions)
-* Logging (SLF4J, Logback)
+
+
